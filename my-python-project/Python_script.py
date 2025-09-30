@@ -2,7 +2,7 @@
 The dataset provides detailed information on customer viewing activity. Each record includes the date of viewing (DateID), a unique customer identifier (CustomerID), the total time spent watching (TotalTimeWatched), the platform used to access the content (Platform), the type of playback event (PlayEventType), and the title of the video viewed (VideoTitle). This structure allows for analysis of viewing patterns, customer behavior, and platform usage.
 
 # Install Dependencies
-                                                                                                                                                                                                                                                                                                                                                                                             
+# Allows to open an Excel file and read data                                                                                                                                                                                                                                                                                                                                                                                            
 !pip install openpyxl
 Requirement already satisfied: openpyxl in /local_disk0/.ephemeral_nfs/envs/pythonEnv-93dd90d0-48c3-47e6-8d5c-7b6310c36c27/lib/python3.12/site-packages (3.1.5)
 Requirement already satisfied: et-xmlfile in /local_disk0/.ephemeral_nfs/envs/pythonEnv-93dd90d0-48c3-47e6-8d5c-7b6310c36c27/lib/python3.12/site-packages (from openpyxl) (2.0.0)

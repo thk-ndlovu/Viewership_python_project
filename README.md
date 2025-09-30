@@ -7,15 +7,15 @@ This dataset captures viewer interaction with video content across different pla
 # Aim
 The aim of this dataset is to provide insights into customer viewing patterns and platform usage, enabling better understanding of user preferences and engagement levels.
 
-# Objectives
-To track total time spent by customers on different video titles.
-To analyse viewing behaviour across various platforms.
-To identify trends in play event types (e.g., play, pause, stop).
-To link customer activity with content consumption patterns.
-To support data-driven decisions for improving viewer experience.
 
 # Tools & Templates to Use
--Excel: For initial data. -Google Looker Studio: For interactive dashboards and visual storytelling. -Python: For Coding.
+Imported Library-Library is a collection of pre-written code that you can use to perform common tasks without having to write the code from scratch.They are built-in and are used by importing them with the import statement.
+-Pandas are for data analysis, manupulation and  working with tables/excel sheets (DataFrames).
+import pandas as pd 
+-Numpy is for numerical operations or math functions.
+import numpy as np
+-Excel: For initial data.
+-Python: For Coding.
 
 # Summary
 This dataset serves as a detailed record of customer video consumption. By combining time watched, platform, event type, and content details, it allows analysts to uncover viewing trends, customer preferences, and content performance. Ultimately, it can guide strategies for content recommendations, platform optimization, and customer engagement.

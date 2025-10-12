@@ -1,21 +1,62 @@
 # Viewership-Analysis
-The dataset provides detailed information on customer viewing activity.
+This repository contains Python scripts analyzing TV viewership data across platforms, event types, and top videos.
 
 # Introduction
 This dataset captures viewer interaction with video content across different platforms. It records when viewers watched, who they were, how long they engaged, the type of event that occurred during playback, and the specific video titles. Such data is crucial for analysing user engagement, viewing behaviour, and platform performance.
 
-# Aim
-The aim of this dataset is to provide insights into customer viewing patterns and platform usage, enabling better understanding of user preferences and engagement levels.
+## Overview
+The analysis focuses on:
+-**Total Watch Time by Platform** – Comparison of audience engagement across devices such as Mobile, TV, and Web.
+-**Watch Time by Event Type** – Breakdown of viewing activity by play, pause, and other engagement events.
+-**Top 5 Most-Watched Videos** – Identification of the most popular videos based on total viewing time.
+-**The aim**of this dataset is to provide insights into customer viewing patterns and platform usage, enabling better understanding of user preferences and engagement levels.
 
+# Objectives: To
+-**Analyze Total Watch Time across different platforms (e.g., Mobile, TV, Web) to understand where audiences engage most.
+-**Examine Watch Time by Event Type to identify viewing behaviors such as plays, pauses, and completions.
+-**Identify Top-Performing Videos based on total time watched to highlight high-performing content.
+
+Data Description
+The dataset includes the following columns:
+DateID – Date of the viewing event
+CustomerID – Unique identifier for each customer
+TotalTimeWatched – Duration of video watched (in seconds)
+Platform – Device or platform used for viewing
+PlayEventType – Type of play event (e.g., play, pause, stop)
+VideoTitle – Title of the video content
+
+Data Cleaning & Preparation
+Checked for missing or inconsistent values
+Standardized formats for dates, times, and categorical fields
+Transformed and aggregated data for analysis and visualization
+
+Visualizations
+Charts and graphs generated include:
+
+### Total Watch Time by Platform
+![Platform Watch Time](images/platform_watch_chart.png)
+**Insight:** Leanback has the highest total watch time, followed by Web, Android, and iOS.
+
+### Total Watch Time by Event Type
+![Event Type Watch Time](images/event_watch_chart.png)
+**Insight:** Live TV dominates in watch time, followed by Catchup and Other, while Downloads show no watch time.
+
+### Top 5 Videos by Watch Time
+![Top Videos](images/top_videos_chart.png)
+**Insight:** Unknown' tops watch time, followed by South African Morning and South African Tonight, while The Block Australia and Suidooster have lower watch time among the top 5.
 
 # Tools & Templates to Use
 Imported Library-Library is a collection of pre-written code that you can use to perform common tasks without having to write the code from scratch.They are built-in and are used by importing them with the import statement.
--Pandas are for data analysis, manupulation and  working with tables/excel sheets (DataFrames).
-import pandas as pd 
--Numpy is for numerical operations or math functions.
+# Pandas are for data analysis, manupulation and  working with tables/excel sheets (DataFrames).
+-import pandas as pd 
+# Numpy is for numerical operations or math functions.
 import numpy as np
+# Matplotlib to create viewership visualizations, 
+-import matplotlib.pyplot as plt
+# Allows to open an Excel file and read data:
+-!pip install openpyxl
 -Excel: For initial data.
 -Python: For Coding.
 
 # Summary
-This dataset serves as a detailed record of customer video consumption. By combining time watched, platform, event type, and content details, it allows analysts to uncover viewing trends, customer preferences, and content performance. Ultimately, it can guide strategies for content recommendations, platform optimization, and customer engagement.
+This dataset tracks customer video consumption by watch time, platform, and content. It reveals viewing trends, popular videos, and audience preferences to guide recommendations and engagement strategies.

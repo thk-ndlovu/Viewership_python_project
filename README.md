@@ -28,16 +28,16 @@ The dataset includes the following columns:
 # Visualizations
 Charts and graphs generated include:
 
-### Total Watch Time by Platform
-![Platform Watch Time](images/platform_watch_chart.png)
+# Total Watch Time by Platform
+![Platform Watch Time](https://dbc-17f06863-5d5b.cloud.databricks.com/editor/files/2039598156760314?o=120978430381930)
 **Insight:** Leanback has the highest total watch time, followed by Web, Android, and iOS.
 
-### Total Watch Time by Event Type
-![Event Type Watch Time](images/event_watch_chart.png)
+# Total Watch Time by Event Type
+![Event Type Watch Time](https://dbc-17f06863-5d5b.cloud.databricks.com/editor/files/2039598156760315?o=120978430381930)
 **Insight:** Live TV dominates in watch time, followed by Catchup and Other, while Downloads show no watch time.
 
-### Top 5 Videos by Watch Time
-![Top Videos](images/top_videos_chart.png)
+# Top 5 Videos by Watch Time
+![Top Videos](https://dbc-17f06863-5d5b.cloud.databricks.com/editor/files/2039598156760316?o=120978430381930)
 **Insight:** Unknown' tops watch time, followed by South African Morning and South African Tonight, while The Block Australia and Suidooster have lower watch time among the top 5.
 
 # Tools & Templates to Use

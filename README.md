@@ -12,9 +12,9 @@ The analysis focuses on:
 - **The aim**of this dataset is to provide insights into customer viewing patterns and platform usage, enabling better understanding of user preferences and engagement levels.
 
 # Objectives: To
-1. **Analyze Total Watch Time across different platforms (e.g., Mobile, TV, Web) to understand where audiences engage most.
-2. **Examine Watch Time by Event Type to identify viewing behaviors such as plays, pauses, and completions.
-3. **Identify Top-Performing Videos based on total time watched to highlight high-performing content.
+1. Analyze Total Watch Time across different platforms (e.g., Mobile, TV, Web) to understand where audiences engage most.
+2. Examine Watch Time by Event Type to identify viewing behaviors such as plays, pauses, and completions.
+3. Identify Top-Performing Videos based on total time watched to highlight high-performing content.
 
 # Data Description
 The dataset includes the following columns:
@@ -43,11 +43,11 @@ Charts and graphs generated include:
 # Tools & Templates to Use
 Imported Library-Library is a collection of pre-written code that you can use to perform common tasks without having to write the code from scratch.They are built-in and are used by importing them with the import statement.
 - **Pandas** Pandas are for data analysis, manupulation and  working with tables/excel sheets (DataFrames).
--import pandas as pd 
+-(Import pandas as pd)
 - **Nump** Numpy is for numerical operations or math functions.
--import numpy as np
+-(Import numpy as np)
 - **Matplotlib** to create viewership visualizations, 
--import matplotlib.pyplot as plt
+-(Import matplotlib.pyplot as plt)
 - **!pip install openpyxl**- Allows to open an Excel file and read data:
 - **Excel sheet**: For initial data.
 - **Python**: For Coding.

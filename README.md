@@ -6,24 +6,24 @@ This dataset captures viewer interaction with video content across different pla
 
 ## Overview
 The analysis focuses on:
--**Total Watch Time by Platform** – Comparison of audience engagement across devices such as Mobile, TV, and Web.
--**Watch Time by Event Type** – Breakdown of viewing activity by play, pause, and other engagement events.
--**Top 5 Most-Watched Videos** – Identification of the most popular videos based on total viewing time.
--**The aim**of this dataset is to provide insights into customer viewing patterns and platform usage, enabling better understanding of user preferences and engagement levels.
+- **Total Watch Time by Platform** – Comparison of audience engagement across devices such as Mobile, TV, and Web.
+- **Watch Time by Event Type** – Breakdown of viewing activity by play, pause, and other engagement events.
+- **Top 5 Most-Watched Videos** – Identification of the most popular videos based on total viewing time.
+- **The aim**of this dataset is to provide insights into customer viewing patterns and platform usage, enabling better understanding of user preferences and engagement levels.
 
 # Objectives: To
-1.**Analyze Total Watch Time across different platforms (e.g., Mobile, TV, Web) to understand where audiences engage most.
-2.**Examine Watch Time by Event Type to identify viewing behaviors such as plays, pauses, and completions.
-3.**Identify Top-Performing Videos based on total time watched to highlight high-performing content.
+1. **Analyze Total Watch Time across different platforms (e.g., Mobile, TV, Web) to understand where audiences engage most.
+2. **Examine Watch Time by Event Type to identify viewing behaviors such as plays, pauses, and completions.
+3. **Identify Top-Performing Videos based on total time watched to highlight high-performing content.
 
 # Data Description
 The dataset includes the following columns:
--**DateID** – Date of the viewing event
--**CustomerID** – Unique identifier for each customer
--**TotalTimeWatched** – Duration of video watched (in seconds)
--**Platform** – Device or platform used for viewing
--**PlayEventType** – Type of play event (e.g., play, pause, stop)
--**VideoTitle** – Title of the video content
+- **DateID** – Date of the viewing event
+- **CustomerID** – Unique identifier for each customer
+- **TotalTimeWatched** – Duration of video watched (in seconds)
+- **Platform** – Device or platform used for viewing
+- **PlayEventType** – Type of play event (e.g., play, pause, stop)
+- **VideoTitle** – Title of the video content
 
 # Visualizations
 Charts and graphs generated include:
@@ -42,16 +42,15 @@ Charts and graphs generated include:
 
 # Tools & Templates to Use
 Imported Library-Library is a collection of pre-written code that you can use to perform common tasks without having to write the code from scratch.They are built-in and are used by importing them with the import statement.
-# Pandas are for data analysis, manupulation and  working with tables/excel sheets (DataFrames).
+- **Pandas** Pandas are for data analysis, manupulation and  working with tables/excel sheets (DataFrames).
 -import pandas as pd 
-# Numpy is for numerical operations or math functions.
-import numpy as np
-# Matplotlib to create viewership visualizations, 
+- **Nump** Numpy is for numerical operations or math functions.
+-import numpy as np
+- **Matplotlib** to create viewership visualizations, 
 -import matplotlib.pyplot as plt
-# Allows to open an Excel file and read data:
--!pip install openpyxl
--Excel: For initial data.
--Python: For Coding.
+- **!pip install openpyxl**- Allows to open an Excel file and read data:
+- **Excel sheet**: For initial data.
+- **Python**: For Coding.
 
 # Summary
 This dataset tracks customer video consumption by watch time, platform, and content. It reveals viewing trends, popular videos, and audience preferences to guide recommendations and engagement strategies.

@@ -26,7 +26,7 @@ The dataset includes the following columns:
 - **VideoTitle** – Title of the video content
 
 # Visualizations
-Charts and graphs generated include:
+Explore the interactive graph pictures here 👇
 
 # Total Watch Time by Platform
 ![Platform Watch Time](https://dbc-17f06863-5d5b.cloud.databricks.com/editor/files/2039598156760314?o=120978430381930)

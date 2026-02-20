@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Python dependencies
+  - package-ecosystem: "pip"
+    directory: "/" # root of your repo, where requirements.txt is located
+    schedule:
+      interval: "weekly"
+      
+  # Optional: Add npm dependencies if you have JavaScript projects
+  #- package-ecosystem: "npm"
+  #  directory: "/frontend"
+  #  schedule:
+  #    interval: "weekly"
